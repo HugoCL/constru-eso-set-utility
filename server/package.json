@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "node server.js",
     "serve": "nodemon server.js",
-    "format": "prettier server.js **/*.js --write"
+    "format": "prettier server.js **/*.js --write",
+    "create-env": "printenv > .env"
   },
   "license": "ISC",
   "dependencies": {
